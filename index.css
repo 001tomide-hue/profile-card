@@ -1,0 +1,104 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+   background-color: rgba(8, 8, 8, 0.982);
+   margin: 0;
+   padding: 0;
+}
+
+ .backdrop{
+   display: grid;
+   align-items: center;
+   justify-content: center;
+} 
+
+.wrapper{
+   width: 700px;
+   height: 100vh;
+   background-color: rgb(20, 20, 30);
+}
+
+.cardwrapper{
+   display: grid;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   top: 18px; 
+   bottom: 0px;
+   left: 0px;
+   right: 0px;
+}
+
+.card{
+   width: 350px;
+   height: 540px;
+   background-color: rgb(32, 32, 44);
+   border-radius: 35px;
+}
+
+.profilepicture img{
+   width: 120px;
+   height: 120px;
+   border: none;
+   border-radius: 50%;
+   margin-top: 15px;
+   margin-left: 30%;
+   object-fit: cover;
+
+}
+
+.socials a{
+   display: block;
+   width: 310px;
+   height: 37px;
+   background-color: rgba(13, 13, 20, 0.616);
+   margin-bottom: 15px;
+   text-decoration: none;
+   text-align: center;
+   color: whitesmoke;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 10px;
+   margin-left: 20px;
+   padding: 7px;
+   transition: color 0.60s,background-color 0.70s;
+}
+
+.socials a:hover{
+   opacity: 0.6;
+}
+
+.socials{
+ margin-top: 35px;
+}
+
+.name{
+   position: relative;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 27px;
+   color: whitesmoke;
+   margin: 0;
+   margin-top: 10px;
+}
+
+.add{
+   margin: 0;
+    color: rgb(102, 255, 0); 
+    text-align: center; 
+    margin-top: 3px; 
+    font-weight: bold; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px;
+}
+
+.quote{
+   font-size: 15px;
+   font-weight: 700;
+   text-align: center;
+   color: whitesmoke;
+   margin-top: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+}
